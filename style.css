@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -15,4 +16,33 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.half-width p{
+    color: dimgray;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #733CD9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.link-button:hover{
+    color: black;
+    border: 2px solid #733CD9;
+    background-color: white;
+}
+.drem-aria{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
